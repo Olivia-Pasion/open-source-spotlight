@@ -1,12 +1,13 @@
-// open-source
-import { Table as RTable, Column, HeaderCell, Cell } from 'rsuite-table';
-import 'rsuite-table/dist/css/rsuite-table.css';
-
 // data
 import userData from '../users.json';
 
-// react
-// import { useState } from 'react';
+// rSuite Table
+import { Table as RTable, Column, HeaderCell, Cell } from 'rsuite-table';
+import 'rsuite-table/dist/css/rsuite-table.css';
+
+
+
+
 
 export default function Table() {
   const users = userData;
