@@ -12,8 +12,12 @@ function App() {
   return (
     <div className="App">
       <nav>
-        <Link to="/table">Table</Link>
-        <Link to="/charts">Charts</Link>
+        <div className="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ...">
+          <Link to="/table">Table</Link>
+        </div>
+        <div className="transition ease-in-out delay-150 bg-red-500 hover:-translate-y-1 hover:scale-110 hover:bg-red-700 duration-300 ...">
+          <Link to="/charts">Charts</Link>
+        </div>
       </nav>
       <Switch>
         <Route path="/table" component={Table} />

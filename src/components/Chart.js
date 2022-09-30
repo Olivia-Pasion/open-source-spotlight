@@ -6,10 +6,10 @@ import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts'
 
 export default function Chart() {
   const users = userData;
-  
+
   return (
     <div>
-      <h1>User IDs do indeed... increase</h1>
+      <h1 className="text-center font-extrabold">User IDs do indeed... increase</h1>
       <AreaChart
         width={500}
         height={400}
