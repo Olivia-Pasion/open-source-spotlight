@@ -3,7 +3,7 @@ import { Link, Route, Switch } from 'react-router-dom';
 
 // components
 import Table from './components/Table';
-import Chart from './components/Table';
+import Chart from './components/Chart';
 
 // style
 import './App.css';
