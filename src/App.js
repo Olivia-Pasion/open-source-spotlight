@@ -1,4 +1,10 @@
+// react
 import { Link, Route, Switch } from 'react-router-dom';
+
+// components
+import Table from './components/Table';
+
+// style
 import './App.css';
 
 function App() {
@@ -9,9 +15,7 @@ function App() {
         <Link to="/charts">Charts</Link>
       </nav>
       <Switch>
-        <Route path="/table">
-          <h1>Table Library</h1>
-        </Route>
+        <Route path="/table" component={Table} />
         <Route path="/charts">
           <h1>Chart Library</h1>
         </Route>
